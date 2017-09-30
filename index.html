@@ -10,10 +10,75 @@
   <script src="js/jquery-3.2.1.js"></script>
   <script src="js/scripts.js"></script>
 
-  <title></title>
+  <title>Play Dice</title>
 </head>
 
 <body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">PIG DICE GAME</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Player One</a></li>
+        <li><a href="#">Player Two</a></li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Number">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="header">
+    <h1><strong>Pig Dice Game</strong></h1>
+  </div>
+
+  <div class="jumbotron text-center">
+    <div class="first">
+      <h3>Getting Started:</h3>
+      <p>Role a first dice.</p>
+      <p>You get your first points excluding 1.</p>
+      <p>You can choose to hold or continue.</p>
+      <p>After your first ponits. its accumulated.</p>
+      <p>If you role a dice with 1 you lose the point during the turn.</p>
+      <p>Reach 100 points to win the game.</p>
+      <p>If you role two dice and you role 1 you lose the points for the other dice turn and if the two dice turn all 1s you lose all points in the entire game.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="btn-group btn-group-justified">
+      <div class="btn-group">
+        <button type="button" class="btn btn-hold btn-lg">Hold</button>
+      </div>
+      <div class="btn-group">
+        <button type="button" class="btn btn-role dice btn-lg">Role Dice</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container scores">
+    <!-- <div class="row"> -->
+    <div class="uscol-md-6">
+      <h2>Player One</h2>
+
+      <div id="output 1">
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <h2>Player Two</h2>
+
+      <div id="output 2">
+      </div>
+    </div>
+  </div>
+  <!-- </div> -->
+
 
 </body>
 

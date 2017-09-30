@@ -1,0 +1,21 @@
+.header {
+  text-align: center;
+}
+
+#number {
+  float: right;
+}
+
+#hold {
+  float: left;
+}
+
+.uscol-md-6 {
+  float: left;
+  /*width: 50px;*/
+}
+
+.col-md-6 {
+  float: right;
+  /*width: 50px;*/
+}
