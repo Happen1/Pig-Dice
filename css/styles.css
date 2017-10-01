@@ -12,6 +12,7 @@
 
  #hold {
    float: left;
+   background-image: url("../images/Rolling-Dice.jpg");
  }
 
  body {
@@ -20,4 +21,8 @@
 
  html {
    background-color: cyan;
+ }
+
+ #Roll-Dice {
+   background-image: url("../images/Rolling-Dice.jpg");
  }
