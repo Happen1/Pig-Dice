@@ -1,32 +1,33 @@
-.header {
-  text-align: center;
-  /*background-color: cyan;*/
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
+ .header {
+   text-align: center;
+   background-color: cyan;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-family: 'Germania One', cursive;
+ }
 
-#number {
-  float: right;
-}
+ #number {
+   float: right;
+ }
 
-#hold {
-  float: left;
-}
+ #hold {
+   float: left;
+ }
 
-.uscol-md-6 {
-  float: left;
-  /*width: 50px;*/
-}
+ .uscol-md-6 {
+   float: left;
+   /*width: 50px;*/
+ }
 
-.col-md-6 {
-  float: right;
-  /*width: 50px;*/
-}
+ .col-md-6 {
+   float: right;
+   /*width: 50px;*/
+ }
 
-body {
-  background-image: url("../images/Pig-Dice.jpg");
-}
+ body {
+   background-image: url("../images/Pig-Dice.jpg");
+ }
 
-html {
-  background-color: cyan;
-}
+ html {
+   background-color: cyan;
+ }
